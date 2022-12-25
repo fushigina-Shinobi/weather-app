@@ -1,0 +1,11 @@
+<section>
+  {data.map((item) => {
+    return (
+      <article>
+        <main>
+          <p>{item.description}</p>
+        </main>
+      </article>
+    );
+  })}
+</section>;
